@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mon site</title>
+
+    <style>nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: white;
+    border-radius: 12px;
+}
+
+nav h2 {
+    color: #1d4ed8;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    margin-left: 15px;
+    font-weight: bold;
+  }
+      @media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    nav a {
+        margin: 0 5px;
+        font-size: 14px;
+    }
+
+    nav div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+    }
+              }
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: #f2f5ff;
+            padding: 60px 20px;
+        }
+
+        h1 {
+            color: #1d4ed8;
+            font-size: 35px;
+        }
+
+        p {
+            color: #444;
+            font-size: 18px;
+        }
+
+        button {
+            background: #1d4ed8;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 10px;
+            font-size: 17px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #153eaa;
+        }
+      .services {
+    margin-top: 80px;
+}
+
+.services h2 {
+    color: #1d4ed8;
+    font-size: 30px;
+}
+
+.cartes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.carte {
+    background: white;
+    width: 250px;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.carte h3 {
+    color: #1d4ed8;
+}
+
+.carte p {
+    font-size: 16px;
+      }
+    </style>
+</head>
+
+<body>
+  <nav>
+    <h2>MonSite</h2>
+
+    <div>
+        <a href="#">Accueil</a>
+        <a href="#">À propos</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </div>
+  </nav>
+
+    <h1>Bienvenue sur mon site 🚀</h1>
+
+    <p>Je suis en train d'apprendre à créer des sites web.</p>
+
+    <button>Découvrir</button>
+  <section class="services">
+
+    <h2>Mes services</h2>
+
+    <div class="cartes">
+
+        <div class="carte">
+            <h3>🎨 Graphisme</h3>
+            <p>Création d'affiches, logos et visuels professionnels.</p>
+        </div>
+
+        <div class="carte">
+            <h3>💻 Développement web</h3>
+            <p>Création de sites web modernes et adaptés au téléphone.</p>
+        </div>
+
+        <div class="carte">
+            <h3>🎬 Montage vidéo</h3>
+            <p>Création et montage de vidéos pour les réseaux sociaux.</p>
+        </div>
+
+    </div>
+
+  </section>
+
+</body>
+</html>
